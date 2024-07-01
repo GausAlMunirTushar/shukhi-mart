@@ -1,5 +1,6 @@
 import Categories from "@/components/Categories";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Offer from "@/components/Offer";
 import OfferList from "@/components/OfferList";
@@ -150,6 +151,7 @@ export default function Home() {
   return (
     <div className="container mx-auto max-width:xl">
       <Navbar />
+      {/* <Hero/> */}
       <OfferList productInfo={product3} />
       <ProductList title="Featured Deal" productInfo={product1} />
       <Categories />
