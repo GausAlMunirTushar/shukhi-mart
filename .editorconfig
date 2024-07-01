@@ -1,0 +1,5 @@
+[*.jsx]
+tab_width = 4
+indent_style = tab
+indent_size = 4
+wrap_line_length = 80

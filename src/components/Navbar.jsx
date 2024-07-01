@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-500 p-4 flex items-center justify-between">
+    <nav className="bg-primaryColor max-width:xl p-4 flex items-center justify-between">
       <div className="text-white text-2xl font-bold">MegaMall</div>
       <div className="hidden md:flex space-x-4 items-center">
         <input
