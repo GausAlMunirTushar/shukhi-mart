@@ -26,7 +26,7 @@ const Navbar = () => {
         />
       </div>
       {isMobileMenuOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-blue-500 p-4 flex flex-col space-y-4 md:hidden">
+        <div className="absolute top-16 left-0 right-0 bg-primaryColor p-4 flex flex-col space-y-4 md:hidden">
           <input
             type="text"
             placeholder="Search Products"
